@@ -28,8 +28,6 @@ except Exception as e:
 with open('infer_icd10_cm_response_medical_data.json', 'r') as file:
     data = json.load(file)
 
-import pandas as pd
-
 with open('infer_icd10_cm_response_medical_data.json', 'r') as file:
     data = json.load(file)
 

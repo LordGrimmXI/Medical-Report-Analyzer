@@ -2,7 +2,7 @@ import boto3
 import json
 import pandas as pd
 
-s3 = boto3.client('comprehendmedical', region_name = 'ap-southeast-2', aws_access_key_id = 'AKIAWRU3YRNO3ZA7OE2E', aws_secret_access_key = 'OD2teiKAxjk5Q/y3vhu4XJ52UqS6wNL5UJTJ+dEM')
+s3 = boto3.client('comprehendmedical', region_name = 'ap-southeast-2', aws_access_key_id = 'YOUR_ACCESS_KEY', aws_secret_access_key = 'YOUR_SECRET_KEY')
 
 def get_medical_report():
     while True:
